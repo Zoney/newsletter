@@ -35,3 +35,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .env
+
+# lokalt lager uten DATABASE_URL, og PGlite (npm run db:dev)
+/data/
+/.pglite/
