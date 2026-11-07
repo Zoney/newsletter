@@ -9,14 +9,13 @@
     "build": "next build",
     "start": "node .next/standalone/server.js",
     "typecheck": "tsc --noEmit",
-    
     "nyhetsbrev:keygen": "node scripts/nyhetsbrev/keygen.mjs",
     "nyhetsbrev:export": "node scripts/nyhetsbrev/export.mjs",
     "nyhetsbrev:remove": "node scripts/nyhetsbrev/remove.mjs",
     "flytt:import": "node scripts/flytt-import.mjs"
   },
   "dependencies": {
-    "next": "16.3.6",
+    "next": "16.4.5",
     "pg": "^8.13.1",
     "react": "19.3.0",
     "react-dom": "19.3.0"
